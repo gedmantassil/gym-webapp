@@ -1,0 +1,9 @@
+.large-button {
+    font-size: 50px;
+    padding: 20px 40px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.large-button span {
+    font-size: 100%;
+}
