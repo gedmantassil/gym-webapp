@@ -1,0 +1,62 @@
+.bg {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+  }
+  .bg-black {
+    background-color: #000; /* solid black background */
+    padding: 40px 0; /* more vertical padding for a spacious look */
+  }
+  
+  .header-text {
+    background-color: #FFD700; /* bright yellow background */
+    color: #000; /* black text color */
+    display: inline-block;
+    padding: 40px 500px; /* larger horizontal padding */
+    margin-bottom: 30px; /* more space above the buttons */
+    font-size: 1.5em; /* larger font size */
+    font-weight: bold;
+    border-radius: 5px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
+  }
+  
+  .custom-btn {
+    background-color: #FFD700; /* bright yellow background */
+    border: none; /* no border */
+    color: #000; /* black text color */
+    font-weight: bold;
+    margin: 200px;
+    padding: 40px 60px; /* increased padding for larger buttons */
+    font-size: 1.4em; /* increased font size for larger text on buttons */
+    border-radius: 5px; /* rounded corners */
+    transition: all 0.3s ease; /* smooth transition for hover effects */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* subtle shadow for depth */
+    display: inline-block; /* ensures proper spacing and alignment */
+    min-width: 200px; /* minimum width for larger buttons */
+  }
+  
+  .custom-btn:hover,
+  .custom-btn:focus {
+    background-color: #FFC107; /* a lighter yellow for hover state */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* more pronounced shadow on hover for a 'lifting' effect */
+    transform: translateY(-2px); /* slight raise effect on hover */
+  }
+  
+  /* Extra styles for responsiveness and alignment */
+  @media (max-width: 768px) {
+    .custom-btn {
+      width: 90%; /* full width on smaller screens for better tap targets */
+      margin: 20px auto; /* increase margin for better spacing */
+      padding: 25px 20px; /* adjust padding for smaller screens */
+    }
+  
+    .header-text {
+      font-size: 1.2em; /* adjust header text size for smaller screens */
+    }
+  }
+  
