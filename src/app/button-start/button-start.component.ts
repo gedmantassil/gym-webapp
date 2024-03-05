@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 })
 export class ButtonStartComponent {
   constructor(private router: Router){}
+
+  // method receives path from html and sends it to the router
   onSelectionClick(pageName:string):void{
     this.router.navigate([`${pageName}`]);
   }
