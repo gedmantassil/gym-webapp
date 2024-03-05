@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CoursesComponent } from './courses/courses.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CoursesComponent } from './courses/courses.component';
     SelectionCoreComponent,
     HomeComponent,
     ProfileComponent,
-    CoursesComponent
+    CoursesComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

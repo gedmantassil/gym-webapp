@@ -5,11 +5,13 @@ import { SelectionCoreComponent } from './selection-core/selection-core.componen
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CoursesComponent } from './courses/courses.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'selection-core', component: SelectionCoreComponent},
   {path: 'courses', component: CoursesComponent},
+  {path: 'contacts', component: ContactsComponent},
 ];
 
 @NgModule({
