@@ -1,1 +1,21 @@
 <app-header></app-header>
+<div class="bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="header-text">CONTACTS</h2>
+                <div class="bg-warning text-white p-3">
+                    
+                    <div *ngFor="let contact of contacts; let i = index" class="form-group">
+                        <p class="form-control-static nb">{{ contact.name }}</p>
+                        <p class="form-control-static eb">{{ contact.email }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding: 5px; max-width: 300px; margin: auto;">
+        <textarea style="height: 40px; width: 100%; margin-bottom: 5px;" placeholder="LEAVE A COMMENT"></textarea>
+        <button style="width: 100%; height: 30px;">Send</button>
+    </div>
+</div>
