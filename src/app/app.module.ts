@@ -9,6 +9,7 @@ import { ButtonStartComponent } from './button-start/button-start.component';
 import { SelectionCoreComponent } from './selection-core/selection-core.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component';
     BackgroundComponent,
     ButtonStartComponent,
     SelectionCoreComponent,
-    HomeComponent
+    HomeComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
