@@ -4,10 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { SelectionCoreComponent } from './selection-core/selection-core.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { CoursesComponent } from './courses/courses.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'selection-core', component: SelectionCoreComponent},
+  {path: 'courses', component: CoursesComponent},
 ];
 
 @NgModule({
