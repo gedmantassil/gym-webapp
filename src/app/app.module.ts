@@ -10,6 +10,7 @@ import { SelectionCoreComponent } from './selection-core/selection-core.componen
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProfileComponent } from './profile/profile.component';
     ButtonStartComponent,
     SelectionCoreComponent,
     HomeComponent,
-    ProfileComponent
+    ProfileComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
