@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class ContactsComponent {
     contacts = [
-      {name: 'Gedmantas Silinskas', email: 'test1@gmail.com'},
-      {name: 'Rokas Gudziunas', email: 'test2@gmail.com'},
-      {name: 'Rugile Jovaisaite', email: 'test3@gmail.com'},
-      {name: 'Simona Gerikaite', email: 'test4@gmail.com'},
+      {name: 'Gedmantas Šilinskas', email: 'test1@gmail.com'},
+      {name: 'Rokas Gudžiūnas', email: 'test2@gmail.com'},
+      {name: 'Rugilė Jovaišaitė', email: 'test3@gmail.com'},
+      {name: 'Simona Gerikaitė', email: 'test4@gmail.com'},
   ];
 
   sendComments(){}
