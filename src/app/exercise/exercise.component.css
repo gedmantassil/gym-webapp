@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; /* Make the container fit the size of the image */
+  transform: translate(180px, 20px); 
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* This class isn't strictly necessary unless you have other specific styles for it */
+.overlay-svg path {
+  transition: fill 0.2s; /* Smooth transition for color change */
+}
