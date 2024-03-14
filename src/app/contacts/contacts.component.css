@@ -31,10 +31,50 @@
     background-color: #FFD700; /* bright yellow background */
     color: #000; /* black text color */
     display: inline-block;
-    padding: 40px 512px; /* larger horizontal padding */
+    padding: 40px 375px; /* larger horizontal padding */
     margin-bottom: 30px; /* more space above the buttons */
-    font-size: 1.5em; /* larger font size */
+    font-size: 3em; /* larger font size */
     font-weight: bold;
+    letter-spacing: 20px;
     border-radius: 5px; /* rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
   }
+  .name-text {
+    background-color: #FFD700; /* bright yellow background */
+    color: #000; /* black text color */
+    display: inline-block;
+    padding: 12px 70px; /* larger horizontal padding */
+    margin-bottom: 10px; /* more space above the buttons */
+    font-size: 1.5em; /* larger font size */
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
+    width: 540px; /* set a fixed width for the box */
+}
+.email-text {
+    background-color: #333; /* bright yellow background */
+    color: #dfdfdf; /* black text color */
+    display: inline-block;
+    padding: 12px 60px; /* larger horizontal padding */
+    margin-bottom: 5px; /* more space above the buttons */
+    font-size: 1.5em; /* larger font size */
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
+    width: 540px; /* set a fixed width for the box */
+}
+.flex-container {
+    display: flex;
+}
+
+.contact-container {
+    width: 50%; /* Adjust as needed */
+}
+
+.comment-section {
+    width: 50%; /* Adjust as needed */
+    padding-top: 80px;
+}
+
