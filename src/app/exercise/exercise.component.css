@@ -1,11 +1,16 @@
 .container {
   text-align: center;
+  display: flex;
+  align-items: flex-start; /* Align items to the start of the container vertically */
 }
-
+h1{
+  text-align: center;
+  width: 100%;
+}
 .image-container {
-  position: relative;
+  position: fixed;
   display: inline-block; /* Make the container fit the size of the image */
-  transform: translate(180px, 20px); 
+  transform: translate(350px, 18px); 
 }
 
 .image-container img {
@@ -25,3 +30,8 @@
 .overlay-svg path {
   transition: fill 0.2s; /* Smooth transition for color change */
 }
+
+/* ... your existing styles ... */
+
+
+

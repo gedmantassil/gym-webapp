@@ -12,6 +12,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { CoursesComponent } from './courses/courses.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { ExerciseComponent } from './exercise/exercise.component';
+import { MuscleGroupTableComponent } from './muscle-group-table/muscle-group-table.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ExerciseComponent } from './exercise/exercise.component';
     ProfileComponent,
     CoursesComponent,
     ContactsComponent,
-    ExerciseComponent
+    ExerciseComponent,
+    MuscleGroupTableComponent
   ],
   imports: [
     BrowserModule,
