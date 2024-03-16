@@ -1,0 +1,20 @@
+<div *ngIf="muscleGroup">
+    <div *ngIf="showTable" class="table-container">
+      <table>
+        <tr>
+          <th>
+            <div class="header-content">
+              Exercises for {{ muscleGroup.name }}
+            </div>
+            <div class="close-button-container">
+              <button (click)="closeTable()" class="close-button">&times;</button>
+            </div>
+          </th>
+        </tr>
+        <tr *ngFor="let exercise of muscleGroup.exercises">
+          <td>{{ exercise }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
