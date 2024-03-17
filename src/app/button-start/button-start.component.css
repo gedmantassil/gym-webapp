@@ -1,14 +1,28 @@
 .large-button {
-    font-size: 2em;
+    font-size: 3em;
+    letter-spacing: 3px;
     padding: 20px 40px;
-    font-family: "Helvetica Neue",Helvetica,
-    Arial,
-    sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
+    background-color: #FFD700; /* a lighter yellow for hover state */
+    transition: all 0.3s ease; /* smooth transition for hover effects */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* subtle shadow for depth */
+    display: inline-block; /* ensures proper spacing and alignment */
+    min-width: 200px; /* minimum width for larger buttons */
+    margin: 200px;
+    width: 500px; /* fixed width */
+    height: 100px;
+    border-radius: 5px; /* rounded corners */
 }
+
 .large-button span {
-    font-size: 100%;
+    display: inline-block;
+    transition: transform 0.3s; /* Smooth transition for the text */
 }
-.large-button:hover{
-    background-color: yellowgreen;
+
+.large-button:hover,
+.large-button:focus {
+    background-color: #FFC107; /* a lighter yellow for hover state */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* more pronounced shadow on hover for a 'lifting' effect */
+    transform: translateY(-2px); /* slight raise effect on hover */
 }
