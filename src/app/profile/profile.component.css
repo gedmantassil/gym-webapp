@@ -1,0 +1,84 @@
+ .bg {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+  }
+  .header-text {
+    background-color: #FFD700; /* bright yellow background */
+    color: #000; /* black text color */
+    display: inline-block;
+    width: 1150px;
+    height: 130px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px; /* more space above the buttons */
+    font-size: 3em; /* larger font size */
+    font-weight: bold;
+    letter-spacing: 20px;
+    border-radius: 5px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
+  }
+  .data-text1{
+    background-color: #FFD700; /* bright yellow background */
+    color: #000; /* black text color */
+    display: inline-block;
+    padding: 10px 25px; /* larger horizontal padding */
+    margin-bottom: 10px; /* more space above the buttons */
+    font-size: 1.1em; /* larger font size */
+    font-weight: bold;
+    text-align: right;
+    border-radius: 5px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
+    width: 250px; /* set a fixed width for the box */
+  }
+  .data-text2{
+    background-color: #333; /* bright yellow background */
+    color: #eeecec; /* black text color */
+    display: inline-block;
+    padding: 10px 25px; /* larger horizontal padding */
+    margin-bottom: 10px; /* more space above the buttons */
+    font-size: 1.1em; /* larger font size */
+    font-weight: bold;
+    text-align: left;
+    border-radius: 5px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
+    width: 250px; /* set a fixed width for the box */
+  }
+  .button{
+    background-color: #e8dddd; /* bright yellow background */
+    color: #000000; /* black text color */
+    display: inline-block;
+    padding: 10px 25px; /* larger horizontal padding */
+    margin-top: 20px; /* more space above the buttons */
+    font-size: 1.1em; /* larger font size */
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
+    width: 250px; /* set a fixed width for the box */
+  }
+  .col-md-6 {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align children in a column */
+    align-items: center; /* Center children horizontally */
+}
+  .below-photo{
+    justify-content: center; /* Center the content horizontally */
+  }
+  .data-container {
+    width: 30%; /* Adjust as needed */
+  }
+  .profile-image {
+    max-width: 100%; /* Ensure the image does not exceed the column width */
+    max-height: 340px; /* Limit the image height */
+    max-height: 340px;
+    display: block; /* Ensure proper spacing */
+    margin: 10px auto; /* Center the image horizontally with top and bottom margin */
+    border: 3px solid #eeecec; /* Add a 2px solid black border */
+    border-radius: 5px; /* Add rounded corners to the border */
+}
