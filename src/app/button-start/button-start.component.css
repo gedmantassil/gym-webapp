@@ -1,14 +1,26 @@
 .large-button {
     font-size: 2em;
     padding: 20px 40px;
-    font-family: "Helvetica Neue",Helvetica,
-    Arial,
-    sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Smooth transitions for hover effects */
+    border: 2px solid transparent; /* Style as needed */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    outline: none; /* Removes the outline */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
+
 .large-button span {
-    font-size: 100%;
+    display: inline-block;
+    transition: transform 0.3s; /* Smooth transition for the text */
 }
-.large-button:hover{
-    background-color: yellowgreen;
+
+.large-button:hover, .large-button:focus { /* Also provide feedback on focus for accessibility */
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhances the shadow */
+    background-color: yellowgreen; /* Changes background color */
+}
+
+.large-button:active span {
+    transform: scale(0.95); /* Slightly shrinks the text when the button is clicked */
 }
