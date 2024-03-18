@@ -17,10 +17,14 @@
     background-color: #FFD700; /* bright yellow background */
     color: #000; /* black text color */
     display: inline-block;
-    padding: 40px 500px; /* larger horizontal padding */
-    margin-bottom: 30px; /* more space above the buttons */
-    font-size: 1.5em; /* larger font size */
+    width: 1140px;
+    height: 125px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 50px; /* more space above the buttons */
+    font-size: 3em; /* larger font size */
     font-weight: bold;
+    letter-spacing: 20px;
     border-radius: 5px; /* rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
   }
@@ -30,14 +34,15 @@
     border: none; /* no border */
     color: #000; /* black text color */
     font-weight: bold;
-    margin: 200px;
-    padding: 40px 60px; /* increased padding for larger buttons */
-    font-size: 1.4em; /* increased font size for larger text on buttons */
+    display: inline-block;
+    margin: 5px 5px; /* more space above the buttons */
+    font-size: 1.5em; /* larger font size */
+    text-align: center;
+    font-weight: bold;
     border-radius: 5px; /* rounded corners */
-    transition: all 0.3s ease; /* smooth transition for hover effects */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* subtle shadow for depth */
-    display: inline-block; /* ensures proper spacing and alignment */
-    min-width: 200px; /* minimum width for larger buttons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
+    width: 560px; /* set a fixed width for the box */
+    height: 80px;
   }
   
   .custom-btn:hover,
@@ -47,6 +52,10 @@
     transform: translateY(-2px); /* slight raise effect on hover */
   }
   
+  .selection-container {
+    width: 50%; /* Adjust as needed */
+}
+
   /* Extra styles for responsiveness and alignment */
   @media (max-width: 768px) {
     .custom-btn {
