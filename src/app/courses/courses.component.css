@@ -1,0 +1,37 @@
+.course-container {
+    position: relative; /* if not already positioned */
+    height: auto; /* Adjust if you want a specific height */
+  }
+  
+  .exercise-link-box {
+    position: absolute;
+    top: 0; /* Aligns the box to the top */
+    right: 0; /* Aligns the box to the right */
+    width: 200px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: #f2f2f2; /* Light grey box, change color as desired */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d4d4d4; /* Light grey border, change color as desired */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth color change and scaling */
+    margin: 10px; /* Adds some space from the top and right edges */
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+  .exercise-link-box a {
+    text-decoration: none;
+    color: #000; /* Black text, change as desired */
+    font-weight: bold;
+    display: block; /* Make the link fill the container for vertical centering */
+  line-height: 1.5; /* Adjust the line height to center text vertically if needed */
+  margin: 0; /* Remove margin from the link if any */
+  }
+  
+  .exercise-link-box:hover {
+    background-color: #eaeaea; /* Slightly darker grey on hover, change as desired */
+    transform: scale(1.05); /* Slightly larger on hover */
+  }
+  
