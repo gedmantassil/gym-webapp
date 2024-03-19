@@ -61,7 +61,16 @@
     border-radius: 5px; /* rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
     width: 250px; /* set a fixed width for the box */
+    transition: all 0.3s ease;
+
   }
+  .button:hover,
+  .button:focus {
+    background-color: #aeaaaa; /* a lighter yellow for hover state */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* more pronounced shadow on hover for a 'lifting' effect */
+    transform: translateY(-2px); /* slight raise effect on hover */
+  }
+
   .col-md-6 {
     display: flex; /* Use flexbox */
     flex-direction: column; /* Align children in a column */
