@@ -1,7 +1,8 @@
 .navbar-default {
     background-color: yellow; 
     border-color: transparent;
-    font-family: 'Segoe UI', sans-serif; 
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 0px;
 }
 
 .navbar-brand {
